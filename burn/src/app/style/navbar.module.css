@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding-block: 1rem;
-    background-color: #333; /* Replace with your desired background color */
+    background-color: transparent; /* Replace with your desired background color */
     color: #fff; /* Replace with your desired text color */
   }
 
@@ -30,10 +30,15 @@
   .links {
     display: flex;
     align-items: center;
+    gap: 1rem;
   }
 
  .links a {
     margin: 0 10px;
     color: #ffffff80; /* Replace with your desired link color */
     text-decoration: none;
+  }
+  .links a:hover{
+    color: white;
+
   }

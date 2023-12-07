@@ -1,0 +1,113 @@
+.heroMain{
+    height: 100vh;
+    /* min-height: 860rem; */
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+
+
+
+}
+.hero{
+    background-image: url(/images/herobg.png);
+    position: relative;
+    background-color: #001838;
+
+}
+.heroMain img{
+    margin: 0 auto;
+    width: 1100rem;
+    max-width: 100%;
+    width:64%;
+}
+.brand{
+    display: flex;
+   max-width: 1590px;
+    padding-inline: 50px;
+
+    justify-content: space-between ;
+}
+.brandMain{
+    position: absolute;
+    bottom: 105px;
+    width: 100%;
+
+}
+.brandImg{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.brandImg img,.brandName img{
+    width: 132px;
+     height: auto;
+}
+.brandName{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.colorPrimary{
+
+    color: #c19752;
+}
+.mainHero{
+
+}
+.grow{
+
+
+        background: #fff;
+        z-index: 3;
+        max-width: 1590px;
+        margin-inline: 50px;
+        padding: 80px 180px 60px;
+
+        position: absolute;
+
+        width: 70%;
+        bottom: -284px;
+}
+.growSocial{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.growHead {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 26px;
+}
+.growHead span{
+    color: #c19752;
+}
+.growHead h1{
+    color: #001838;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.SocialBox{
+    background-color: #f3f5f8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+.socialName{
+    display: flex;
+    flex-direction: column;
+}
+.growMain{
+  width: 100%;
+}
