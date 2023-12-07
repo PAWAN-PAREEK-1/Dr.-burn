@@ -5,7 +5,8 @@ import { Main } from 'next/document';
 // Assuming you have a Loading component
 import Loading from './components/Loading';
 
-const Header = lazy(() => import("./Components/Header"));
+
+const Navigation = lazy(() => import("./Components/Navigation"));
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         </div>
       }
     >
-      <Header />
+      <Navigation />
       <h1>home</h1>
     </Suspense>
   );

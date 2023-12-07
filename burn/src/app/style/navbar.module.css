@@ -1,0 +1,39 @@
+/* Navbar.module.css */
+.navbar-header{
+     max-width: 1590px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.navbar {
+
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    background-color: #333; /* Replace with your desired background color */
+    color: #fff; /* Replace with your desired text color */
+  }
+
+  .logo {
+    margin-right: auto;
+   width: 53px;
+   height: 30px;
+  }
+
+  .logoImage {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+  }
+
+ .links a {
+    margin: 0 10px;
+    color: #ffffff80; /* Replace with your desired link color */
+    text-decoration: none;
+  }
