@@ -31,6 +31,7 @@ const Navbar = () => {
         </Link>
         <Link href="/services">
         Books
+        
         </Link>
         <Link href="/services">
         Shop
