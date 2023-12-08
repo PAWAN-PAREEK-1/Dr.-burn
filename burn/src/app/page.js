@@ -8,6 +8,8 @@ import Loading from "./components/Loading";
 const SocialBox = lazy(() => import("./components/SocialBox"));
 const Show = lazy(() => import("./components/show"));
 const AboutEd = lazy(() => import("./components/AboutEd"));
+const Books = lazy(() => import("./components/Books"));
+const Media = lazy(() => import("./components/Media"));
 
 const Navigation = lazy(() => import("./components/Navigation"));
 
@@ -49,6 +51,8 @@ export default function Home() {
       <SocialBox />
       <Show/>
       <AboutEd/>
+      <Books/>
+      <Media/>
 
       {/* <div className={styles.jh}>
 sda
