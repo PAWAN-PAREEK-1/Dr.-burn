@@ -1,0 +1,66 @@
+.about{
+    padding: 80px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,#001838,#06254f);
+    overflow: hidden;
+    max-width: 1420px;
+    position: relative;
+
+}
+.Ed{
+    width: 100%;
+    flex: 1;
+}
+.Edimg{
+    flex: 1;
+    width: 50%;
+}
+.Edimg img{
+    width: 100%;
+}
+.Ed h1{
+    padding-bottom: 60px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+}
+.Ed p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+    line-height: 1.5rem;
+
+}
+.Ed button{
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #c19752;
+    padding: 15px;
+    font-size: 17.6px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c19752;
+}
+.Ed button:hover{
+    background: #c19752;
+    color: #fff;
+}
+.Social{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding-block: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.Social img{
+    width: 91px;
+
+
+}
