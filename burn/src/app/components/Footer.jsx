@@ -39,9 +39,11 @@ const Footer = () => {
               YOU
             </h2>
 
+<form action="">
             <input type="text" placeholder="Your Name" />
             <input type="email" placeholder="Your Email" />
             <button>Submit</button>
+            </form>
           </div>
           <div className={`${styles.footer} ${styles.footer3} `}>
             <h2>ABOUT ED MYLETT</h2>
