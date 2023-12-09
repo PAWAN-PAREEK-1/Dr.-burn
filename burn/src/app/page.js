@@ -1,7 +1,6 @@
 "use client";
-import Document, { Html, Head, NextScript } from 'next/document';
+
 import React, { lazy, Suspense } from "react";
-import { Main } from "next/document";
 import styles from "./style/home.module.css";
 
 import Loading from "./components/Loading";
