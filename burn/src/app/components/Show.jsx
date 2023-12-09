@@ -32,7 +32,7 @@ const Show = () => {
 
           <div className={styles.epBox}>
             <div className={styles.epMainBox}>
-              <img src="/images/ep.png" alt="" />
+              <img src="https://ed-mylett-web.s3.us-west-1.amazonaws.com/-gORIBLPF.png" alt="" />
 
               <h2 className={styles.epMainBoxHead}> EP. 267</h2>
               <div className={styles.epMainBoxDetail}>
@@ -41,7 +41,7 @@ const Show = () => {
               </div>
             </div>
             <div className={styles.epMainBox}>
-              <img src="/images/ep.png" alt="" />
+              <img src="https://ed-mylett-web.s3.us-west-1.amazonaws.com/-gORIBLPF.png" alt="" />
 
               <h2 className={styles.epMainBoxHead}> EP. 267</h2>
               <div className={styles.epMainBoxDetail}>
@@ -50,7 +50,7 @@ const Show = () => {
               </div>
             </div>
             <div className={styles.epMainBox}>
-              <img src="/images/ep.png" alt="" />
+              <img src="https://ed-mylett-web.s3.us-west-1.amazonaws.com/-gORIBLPF.png" alt="" />
 
               <h2 className={styles.epMainBoxHead}> EP. 267</h2>
               <div className={styles.epMainBoxDetail}>
