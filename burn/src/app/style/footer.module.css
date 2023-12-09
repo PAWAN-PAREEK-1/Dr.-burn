@@ -7,7 +7,7 @@
     /* height: 500px; */
     position: relative; /* Add this to make the ::before pseudo-element work */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     max-width: 100%;
     gap: 30px;
