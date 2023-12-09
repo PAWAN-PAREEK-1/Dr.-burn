@@ -28,7 +28,7 @@ export default function Home() {
         <div className={styles.hero}>
           <Navigation />
           <div className={styles.heroMain}>
-            <img src="/images/mainimag.png" alt="" />
+            <img src="/images/HomePage.png" alt="" />
           </div>
 
           <div className={styles.brandMain}>

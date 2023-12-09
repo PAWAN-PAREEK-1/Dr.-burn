@@ -10,7 +10,7 @@ const Navbar = () => {
      <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-            <img src="/images/logo.svg" alt="" />
+            <img src="/images/logo.png" alt="" />
         </Link>
       </div>
       <div className={styles.links}>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </Link>
         <Link href="/services">
         Books
-        
+
         </Link>
         <Link href="/services">
         Shop

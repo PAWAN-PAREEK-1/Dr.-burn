@@ -15,11 +15,16 @@
     background-color: transparent; /* Replace with your desired background color */
     color: #fff; /* Replace with your desired text color */
   }
+  .logo img{
+    width: 100px;
+  }
 
   .logo {
     margin-right: auto;
    width: 53px;
    height: 30px;
+   display: flex;
+   align-items: center;
   }
 
   .logoImage {

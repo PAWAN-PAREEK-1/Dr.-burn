@@ -16,7 +16,20 @@ const Work = () => {
             <button>BOOK ED MYLETT</button>
           </div>
           <div className={styles.boxRight}>
-            <img src="/images/blue.png" alt="" />
+            <img src="/images/work2.png" alt="" />
+          </div>
+        </div>
+        <div className={`${styles.Sbox} ${styles.Sbox2}`}>
+          <div className={styles.boxLeft}>
+            <h4>Hire Ed Mylett to Speak</h4>
+            <p>
+              Ed Mylett has spoken at a number of conferences and always enjoy
+              collaborating with like-minded individuals.
+            </p>
+            <button>BOOK ED MYLETT</button>
+          </div>
+          <div className={styles.boxRight}>
+            <img src="/images/work1.png" alt="" />
           </div>
         </div>
         <div className={styles.Sbox}>
@@ -29,20 +42,7 @@ const Work = () => {
             <button>BOOK ED MYLETT</button>
           </div>
           <div className={styles.boxRight}>
-            <img src="/images/blue.png" alt="" />
-          </div>
-        </div>
-        <div className={styles.Sbox}>
-          <div className={styles.boxLeft}>
-            <h4>Hire Ed Mylett to Speak</h4>
-            <p>
-              Ed Mylett has spoken at a number of conferences and always enjoy
-              collaborating with like-minded individuals.
-            </p>
-            <button>BOOK ED MYLETT</button>
-          </div>
-          <div className={styles.boxRight}>
-            <img src="/images/blue.png" alt="" />
+            <img src="/images/work2.png" alt="" />
           </div>
         </div>
       </div>

@@ -60,3 +60,12 @@
     background-color: #001838;
     border: 2px solid white;
 }
+.Sbox2{
+    background: #c19752;
+}
+.Sbox2 button{
+    background-color: #001838;
+}
+.Sbox2 h4,.Sbox2 p{
+    color: #001838;
+}

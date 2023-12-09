@@ -39,7 +39,7 @@ const AboutEd = () => {
       </div>
       <div className={styles.Edimg}>
 
-        <img src="/images/ed.png" alt="" />
+        <img src="/images/about.png" alt="" />
       </div>
     </div>
   );
