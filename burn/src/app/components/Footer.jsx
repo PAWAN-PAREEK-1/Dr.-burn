@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div className={`${styles.footer} ${styles.footer2} `}>
             <h1 className="colorPrimary">
-              JOIN THE WORLD'S BIGGEST
+              JOIN THE WORLD&apos;S BIGGEST
               <br />
               MOVEMENT AND MAXOUT YOUR LIFE
             </h1>

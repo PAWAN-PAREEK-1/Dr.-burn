@@ -10,7 +10,7 @@ const Media = () => {
           personality who has made numerous appearances in various forms of
           media. He has been a guest multiple times on national broadcasts like
           Good Morning America, Access Hollywood, Sherri Shepherd and Good
-          Morning Arizona. Ed's ability to inspire and motivate others has made
+          Morning Arizona. Ed&apos;s ability to inspire and motivate others has made
           him a sought after media personality and his impact continues to
           resonate with people all around the world.
         </p>
