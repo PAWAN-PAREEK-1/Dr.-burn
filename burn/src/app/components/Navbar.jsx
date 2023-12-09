@@ -1,52 +1,47 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+"use client"
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import styles from '../style/navbar.module.css';
-import logo from "/public/images/logo.svg"
+import logo from '/public/images/logo.svg';
+
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    setScrolled(offset > 0);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-        <div className="navbar-header">
-     <nav className={styles.navbar}>
-      <div className={styles.logo}>
-        <Link href="/">
-            <img src="/images/logo.png" alt="" />
-        </Link>
+      <div className={`navbar-header ${scrolled ? styles.scrolled : ''}`}>
+        <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
+          <div className={styles.logo}>
+            <Link href="/">
+              <img src="/images/logo.png" alt="" />
+            </Link>
+          </div>
+          <div className={styles.links}>
+            <Link href="/">Home</Link>
+            <Link href="/about">AboutEd</Link>
+            <Link href="/services">Hire Ed to Speak</Link>
+            <Link href="/services">Podcast</Link>
+            <Link href="/services">TV Show</Link>
+            <Link href="/services">Books</Link>
+            <Link href="/services">Shop</Link>
+            <Link href="/services">Contact</Link>
+          </div>
+        </nav>
       </div>
-      <div className={styles.links}>
-      <Link href="/">
-        Home
-        </Link>
-        <Link href="/about">
-         AboutEd
-        </Link>
-        <Link href="/services">
-        Hire Ed to Speak
-        </Link>
-        <Link href="/services">
-        Podcast
-        </Link>
-        <Link href="/services">
-        TV Show
-        </Link>
-        <Link href="/services">
-        Books
-
-        </Link>
-        <Link href="/services">
-        Shop
-        </Link>
-        <Link href="/services">
-        Contact
-        </Link>
-        {/* Add more links as needed */}
-      </div>
-    </nav>
-    </div>
     </div>
   );
 };
 
-
-
-export default Navbar
+export default Navbar;
