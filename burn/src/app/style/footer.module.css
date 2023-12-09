@@ -124,3 +124,10 @@
     color: #FFF;
     border: 2px solid #fff;
 }
+
+.footer2 form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
