@@ -6,7 +6,7 @@ import styles from "./style/home.module.css";
 import Loading from "./components/Loading";
 
 const SocialBox = lazy(() => import("./components/SocialBox"));
-const Show = lazy(() => import("./components/show"));
+const Show = lazy(() => import("./components/Show"));
 const AboutEd = lazy(() => import("./components/AboutEd"));
 const Books = lazy(() => import("./components/Books"));
 const Media = lazy(() => import("./components/Media"));
