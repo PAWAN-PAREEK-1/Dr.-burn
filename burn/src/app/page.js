@@ -11,6 +11,7 @@ const AboutEd = lazy(() => import("./components/AboutEd"));
 const Books = lazy(() => import("./components/Books"));
 const Media = lazy(() => import("./components/Media"));
 const Work = lazy(() => import("./components/Work"));
+const Footer = lazy(() => import("./components/Footer"));
 
 const Navigation = lazy(() => import("./components/Navigation"));
 
@@ -55,6 +56,7 @@ export default function Home() {
       <Books/>
       <Media/>
       <Work/>
+      <Footer/>
 
       {/* <div className={styles.jh}>
 sda

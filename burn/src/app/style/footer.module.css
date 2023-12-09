@@ -1,0 +1,126 @@
+.footerMain {
+    padding: 100px 50px;
+    background-image: url(/images/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9fa;
+    /* height: 500px; */
+    position: relative; /* Add this to make the ::before pseudo-element work */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 30px;
+
+}
+
+.footerSec{
+    max-width: 1590px;
+}
+
+.footerMain::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: radial-gradient(#001838, #000);
+    opacity: 0.9; /* Use decimal values for opacity */
+     /* Adjusted z-index to make sure it's behind the content */
+}
+.footer{
+    z-index: 1;
+
+}
+
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 37px;
+}
+.footer p{
+    color: #a3b2c2;
+    font-size: 12.8px;
+    line-height: 1.2rem;
+    padding-bottom: 15px;
+}
+
+.social{
+    padding: 16px 32px;
+    outline: none;
+    transition: all .1s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    cursor: pointer;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #cacaca;
+    background-color: transparent;
+    border: 2px solid #cacaca;
+    position: relative;
+}
+/* .detail{
+
+} */
+
+.imgSocial{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center ;
+}
+.footer2{
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer1{
+    width: 30%;
+}
+.footer3{
+    width: 30%;
+}
+.footer2 h1{
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 3.1rem;
+}
+.footer2 h2{
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 37px;
+
+}
+.footer2 input{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background: #f5f5f6;
+    font-size: 16px;
+    outline: none;
+    width: 70%;
+    text-align: center;
+    -webkit-appearance: none;
+    margin-bottom: 10px;
+}
+.footer2 button{
+    width: 82.6%;
+    padding: 16px 40px;
+    font-size: 16px;
+    background-color: #c19752;
+    border: none;
+    cursor: pointer;
+}
+.footer2 button:hover{
+    background-color: #001838;
+    color: #FFF;
+    border: 2px solid #fff;
+}
