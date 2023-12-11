@@ -34,8 +34,8 @@ export default function Home() {
           <div className={styles.brandMain}>
             <div className={styles.brand}>
               <div className={styles.brandImg}>
-                <img src="/images/forbes.svg" alt="" />
-                <img src="/images/success.svg" alt="" />
+                <img src="https://www.edmylett.com/img/featured/Forbes.svg" alt="" />
+                <img src="https://www.edmylett.com/img/featured/Success.svg" alt="" />
                 <img src="/images/Entrepreneur.svg" alt="" />
               </div>
 
