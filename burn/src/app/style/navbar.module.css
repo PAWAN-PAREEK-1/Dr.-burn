@@ -17,9 +17,9 @@
   transition: background-color 0.3s ease;
 }
 
-.navbar.scrolled {
-  background-color: #000; /* Replace with your desired background color after scroll */
-}
+/* .navbar.scrolled {
+  background-color: #000;
+} */
 
 .logo img {
   width: 100px;
@@ -53,10 +53,10 @@
 .links a:hover {
   color: white;
 }
-.navbar.scrolled {
-  background-color: #001838 !important; /* Use !important to override any conflicting styles */
+/* .navbar.scrolled {
+  background-color: #001838 !important;
   position: fixed;
   width: 95%;
   top: 0;
   z-index: 1000;
-}
+} */

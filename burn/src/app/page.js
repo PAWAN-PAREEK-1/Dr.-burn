@@ -49,8 +49,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <SocialBox />
       </div>
-      <SocialBox />
+
       <Show/>
       <AboutEd/>
       <Books/>
