@@ -53,10 +53,11 @@
 .links a:hover {
   color: white;
 }
-/* .navbar.scrolled {
+.navbar.scrolled {
   background-color: #001838 !important;
   position: fixed;
-  width: 95%;
+  width: 100%;
   top: 0;
   z-index: 1000;
-} */
+  max-width: 1482px;
+}
