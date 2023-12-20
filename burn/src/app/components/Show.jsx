@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "../style/show.module.css";
 
+
+
+
+
+const episodes = [
+  {epNo: 267,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
+  {epNo: 268,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
+  {epNo: 269,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'}
+]
+
 const Show = () => {
+
+
   return (
     <>
       <div className={styles.showMain}>
@@ -31,33 +43,18 @@ const Show = () => {
           </div>
 
           <div className={styles.epBox}>
-            <div className={styles.epMainBox}>
+          {episodes.map((ep,index)=>(
+            <div className={styles.epMainBox} key={index}>
               <img src="/images/podcast.png" alt="" />
 
-              <h2 className={styles.epMainBoxHead}> EP. 267</h2>
+              <h2 className={styles.epMainBoxHead}>EP. {ep.epNo}</h2>
               <div className={styles.epMainBoxDetail}>
-                <h2 className="colorPrimary">ED MYLETT</h2>
-                <h3>10 LESSONS I LEARNED FROM MY DOGS</h3>
+                <h2 className="colorPrimary">{ep.guestName}</h2>
+                <h3>{ep.epTitle}</h3>
               </div>
             </div>
-            <div className={styles.epMainBox}>
-              <img src="/images/podcast.png" alt="" />
+           ) )}
 
-              <h2 className={styles.epMainBoxHead}> EP. 267</h2>
-              <div className={styles.epMainBoxDetail}>
-                <h2 className="colorPrimary">ED MYLETT</h2>
-                <h3>10 LESSONS I LEARNED FROM MY DOGS</h3>
-              </div>
-            </div>
-            <div className={styles.epMainBox}>
-              <img src="/images/podcast.png" alt="" />
-
-              <h2 className={styles.epMainBoxHead}> EP. 267</h2>
-              <div className={styles.epMainBoxDetail}>
-                <h2 className="colorPrimary">ED MYLETT</h2>
-                <h3>10 LESSONS I LEARNED FROM MY DOGS</h3>
-              </div>
-            </div>
 
           </div>
         </div>
