@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '../style/navbar.module.css';
-import logo from '/public/images/logo.svg';
+
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className={styles.links}>
             <Link href="/">Home</Link>
             <Link href="/about">AboutEd</Link>
-            <Link href="/services">Hire Ed to Speak</Link>
+            <Link href="/Hire">Hire Ed to Speak</Link>
             <Link href="/services">Podcast</Link>
             <Link href="/services">TV Show</Link>
             <Link href="/services">Books</Link>
