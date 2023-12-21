@@ -1,7 +1,11 @@
 import React, { lazy, Suspense } from "react";
 const AboutImage = lazy(() => import("../components/ABoutImage"));
 const Navigation = lazy(() => import("../components/Navigation"));
-const Show = lazy(() => import("../components/ABoutImage"));
+const AboutEd = lazy(() => import("../components/AboutEd"));
+const EdStory = lazy(() => import("../components/EdStory"));
+const Work = lazy(() => import("../components/Work"));
+const Footer = lazy(() => import("../components/Footer"));
+
 import Loading from "../components/Loading";
 import styles from "../style/home.module.css";
 import styles2 from "../style/aboutPage.module.css";
@@ -31,9 +35,14 @@ const About = () => {
           </div>
           <AboutImage/>
 
+
         </div>
 
       </div>
+      <AboutEd isWhiteBG={true} isHeadingColor={true} />
+      <EdStory/>
+      <Work/>
+      <Footer/>
     </div>
     </Suspense>
   )

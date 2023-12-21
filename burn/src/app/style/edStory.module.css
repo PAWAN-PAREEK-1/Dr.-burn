@@ -1,0 +1,44 @@
+.main{
+    padding-inline: 50px;
+    padding-block: 80px;
+    background: white;
+    width: 93%;
+}
+.main h1{
+    text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  color: #001838;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-align: center;
+
+}
+.ed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.edBox{
+    flex: 1;
+    font-size: 16px;
+    color: #001838;
+    /* font-weight: 400; */
+    padding-top :80px ;
+}
+.edBox h3{
+    font-weight:300 ;
+}
+.edBox img{
+    margin-inline: 86px;
+}
+.edFlex{
+    flex-direction: row-reverse;
+
+}
+.heading{
+    font-size: 20px !important;
+    color: #c19752 !important;
+    font-style: italic;
+}

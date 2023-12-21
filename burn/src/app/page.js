@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       <Show/>
-      <AboutEd/>
+      <AboutEd />
       <Books/>
       <Media/>
       <Work/>
