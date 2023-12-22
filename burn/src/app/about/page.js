@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-const AboutImage = lazy(() => import("../components/ABoutImage"));
+const AboutImage = lazy(() => import("../components/AboutImage"));
 const Navigation = lazy(() => import("../components/Navigation"));
 const AboutEd = lazy(() => import("../components/AboutEd"));
 const EdStory = lazy(() => import("../components/EdStory"));
