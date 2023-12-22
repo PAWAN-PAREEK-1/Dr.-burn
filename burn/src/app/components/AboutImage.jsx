@@ -19,7 +19,7 @@ const AboutImage = () => {
       <div className={style.images}>
       {images.map((images, index) =>(
 
-        <div className="aboutImage">
+        <div className="aboutImage" key={index}>
 
           <img src={images.image} alt="" />
           </div>

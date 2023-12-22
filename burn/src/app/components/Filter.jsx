@@ -97,7 +97,7 @@ const Filter = () => {
     <div className={styles.main}>
       <div className={styles.filterName}>
         {buttons.map((data) => (
-          <button
+          <button key={index}
             onClick={() =>
               setActiveButtons({
                 ...activeButtons,

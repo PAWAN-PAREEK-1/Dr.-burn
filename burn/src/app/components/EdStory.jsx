@@ -17,18 +17,19 @@ const data = [
 
   {
     isHeading: true,
-    heading: (<span>
-         “The instant you accept responsibility for everything in your life
-         <br />
-         is the moment you acquire the power to change it.”
-    </span>)
+    heading: (
+      <span>
+        “The instant you accept responsibility for everything in your life
+        <br />
+        is the moment you acquire the power to change it.”
+      </span>
+    ),
   },
 
   {
     img: "/images/story.png",
     h1: "  As a young man, he attended the University of the Pacific in Stockton, California, where he was a three-time academic All-American before an untimely injury ended his dream of playing in the major leagues. ",
     h2: "At his father&#39;s urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
-
   },
 
   {
@@ -39,13 +40,14 @@ const data = [
   },
   {
     isHeading: true,
-    heading: (<span>
-         “The instant you accept responsibility for everything in your life
-         <br />
-         is the moment you acquire the power to change it.”
-    </span>)
+    heading: (
+      <span>
+        “The instant you accept responsibility for everything in your life
+        <br />
+        is the moment you acquire the power to change it.”
+      </span>
+    ),
   },
-
 ];
 
 const EdStory = () => {
@@ -55,12 +57,13 @@ const EdStory = () => {
 
       {data.map((story, index) =>
         story.isHeading ? (
-
-          <h1 className={styles.heading}>{story.heading}</h1>
+          <h1 className={styles.heading} key={index}>
+            {story.heading}
+          </h1>
         ) : (
           <div
-            className={`${styles.ed} ${story.isFlex && styles.edFlex}`}
             key={index}
+            className={`${styles.ed} ${story.isFlex && styles.edFlex}`}
           >
             <div className={styles.edBox}>
               <img src={story.img} alt="" />
@@ -74,9 +77,6 @@ const EdStory = () => {
           </div>
         )
       )}
-
-
-
     </div>
   );
 };
