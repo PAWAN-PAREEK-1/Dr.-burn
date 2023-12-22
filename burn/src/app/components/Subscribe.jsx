@@ -58,7 +58,7 @@ const Subscribe = () => {
 
                 <div className={styles.boxRight}>
                             <h1>Subscribe</h1>
-                            <h3>Don't miss any episode</h3>
+                            <h3>Don&#39;t miss any episode</h3>
                             <div className={styles.social}>
                                 {socialData.map(( social ,index)=>(
                                     <div className={styles.socialBox} key={index}>

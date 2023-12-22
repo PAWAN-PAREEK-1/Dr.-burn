@@ -5,13 +5,13 @@ const data = [
   {
     img: "/images/story.png",
     h1: "  As a young man, he attended the University of the Pacific in Stockton, California, where he was a three-time academic All-American before an untimely injury ended his dream of playing in the major leagues. ",
-    h2: "At his father's urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
+    h2: "At his father&#39;s urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
   },
 
   {
     img: "/images/story.png",
     h1: "  As a young man, he attended the University of the Pacific in Stockton, California, where he was a three-time academic All-American before an untimely injury ended his dream of playing in the major leagues. ",
-    h2: "At his father's urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
+    h2: "At his father&#39;s urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
     isFlex: true,
   },
 
@@ -27,14 +27,14 @@ const data = [
   {
     img: "/images/story.png",
     h1: "  As a young man, he attended the University of the Pacific in Stockton, California, where he was a three-time academic All-American before an untimely injury ended his dream of playing in the major leagues. ",
-    h2: "At his father's urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
+    h2: "At his father&#39;s urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
 
   },
 
   {
     img: "/images/story.png",
     h1: "  As a young man, he attended the University of the Pacific in Stockton, California, where he was a three-time academic All-American before an untimely injury ended his dream of playing in the major leagues. ",
-    h2: "At his father's urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
+    h2: "At his father&#39;s urging, Ed became a counselor for disadvantaged children in what turned out to be one of the pivotal turning points of his life. It was there he first started to appreciate the importance of serving others and laying the foundation for success principles he would put into practice later in life.",
     isFlex: true,
   },
   {
@@ -51,7 +51,7 @@ const data = [
 const EdStory = () => {
   return (
     <div className={styles.main}>
-      <h1>ed's zero to hero story</h1>
+      <h1>ed&#39;s zero to hero story</h1>
 
       {data.map((story, index) =>
         story.isHeading ? (
