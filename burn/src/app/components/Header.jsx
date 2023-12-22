@@ -3,10 +3,10 @@ import "../style/header.css";
 const Header = () => {
   return (
     <div>
-      <div class="header" id="header">
-        <div class="cout">
+      <div className="header" id="header">
+        <div className="cout">
           JOIN THE WORLD&apos;S BIGGEST MOVEMENT AND MAXOUT YOUR LIFE!
-          <button class="header btn">
+          <button className="header btn">
           JOIN NOW
         </button>
         </div>

@@ -1,18 +1,24 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import styles from "../style/filter.module.css";
 
 const buttons = [
   {
     text: "Sport Legends",
+    value: "spotLegend",
   },
   {
     text: "Health Experts",
+    value: "health",
   },
   {
     text: "Me Speaking to You",
+    value: "meSpeaking",
   },
   {
     text: "Entrepreneurs",
+    value: "entrepreneurs",
   },
 ];
 
@@ -23,28 +29,98 @@ const podcast = [
     date: "27/12/2015",
     author: "ed my ",
     text: "12 Steps To Become A Master Listene",
+    typeof: "spotLegend",
+  },
+  {
+    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    epNO: "270",
+    date: "27/12/2015",
+    author: "ed my ",
+    text: "12 Steps To Become A Master Listene",
+    typeof: "health",
+  },
+  {
+    img: "	https://ed-mylett-web.s3.us-west-1.amazonaws.com/frZKOokwW.PNG",
+    epNO: "270",
+    date: "27/12/2015",
+    author: "ed my ",
+    text: "12 Steps To Become A Master Listene",
+    typeof: "spotLegend",
+  },
+  {
+    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    epNO: "270",
+    date: "27/12/2015",
+    author: "ed my ",
+    text: "12 Steps To Become A Master Listene",
+    typeof: "health",
+  },
+  {
+    img: "	https://ed-mylett-web.s3.us-west-1.amazonaws.com/frZKOokwW.PNG",
+    epNO: "270",
+    date: "27/12/2015",
+    author: "ed my ",
+    text: "12 Steps To Become A Master Listene",
+    typeof: "spotLegend",
+  },
+  {
+    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    epNO: "270",
+    date: "27/12/2015",
+    author: "ed my ",
+    text: "12 Steps To Become A Master Listene",
+    typeof: "health",
   },
 ];
 
 const Filter = () => {
+  const [activeButtons, setActiveButtons] = useState({
+    spotLegend: false,
+    entrepreneurs: false,
+    meSpeaking: false,
+    health: false,
+  });
+
+  const [filterData, setFilterData] = useState([...podcast]);
+
+  useEffect(() => {
+    const filteredPodcasts = podcast.filter(
+      (pod) =>
+        activeButtons[pod.typeof] ||
+        Object.values(activeButtons).every((value) => !value)
+    );
+
+    setFilterData(filteredPodcasts);
+  }, [activeButtons]);
+
   return (
     <div className={styles.main}>
       <div className={styles.filterName}>
         {buttons.map((data) => (
-          <button>{data.text}</button>
+          <button
+            onClick={() =>
+              setActiveButtons({
+                ...activeButtons,
+                [data.value]: !activeButtons[data.value],
+              })
+            }
+            className={activeButtons[data.value] && styles.active}
+          >
+            {data.text}
+          </button>
         ))}
       </div>
       <div className={styles.socialBox}>
-        {podcast.map((pod, index) => (
+        {filterData.map((pod, index) => (
           <div className={styles.box} key={index}>
             <img src={pod.img} alt="" />
             <div className={styles.detail}>
               <div className={styles.date}>
-                <h2>Ep. {pod.epNo}</h2>
-                <h2>12/21/2023</h2>
+                <h2>Ep. {pod.epNO}</h2>
+                <h2>{pod.date}</h2>
               </div>
-              <h3>Ed Mylett</h3>
-              <h1>12 Steps To Become A Master Listener</h1>
+              <h3>{pod.author}</h3>
+              <h1>{pod.text}</h1>
             </div>
           </div>
         ))}

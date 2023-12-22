@@ -7,8 +7,12 @@ import Navigation  from "../components/Navigation";
 import PodacastBox from '../components/PodacastBox';
 import Subscribe from '../components/Subscribe';
 import Filter from '../components/Filter';
+import Review from '../components/Review';
+import Work from '../components/Work';
+import Footer from '../components/Footer';
 
 const page = () => {
+
   return (
     <div>
         <div className={` ${styles3.mainHero}`}>
@@ -25,6 +29,9 @@ const page = () => {
         </div>
         <Subscribe/>
           <Filter/>
+          <Review/>
+          <Work/>
+          <Footer/>
     </div>
   )
 }

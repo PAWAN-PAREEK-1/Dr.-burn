@@ -1,5 +1,6 @@
 .main{
     padding-inline: 50px;
+    margin-bottom: 64px;
 }
 .filterName{
     display: flex;
@@ -21,12 +22,17 @@
     color: white;
     background-color: #001838;
 }
+.filterName .active{
+    color: white;
+    background-color: #001838;
+}
 .socialBox{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 .box{
     max-width: 290px;
@@ -40,7 +46,7 @@
 .detail{
     padding: 16px;
     background: white;
- 
+
 }
 .date{
     display: flex;
