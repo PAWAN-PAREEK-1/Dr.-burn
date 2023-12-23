@@ -28,7 +28,7 @@ const Follow = () => {
       <div className={styles.flexContainer}>
         {images.map((image, index) =>(
 
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer} key={index}>
                 <a href={image.link} className={styles.imageLink} key={index}>
             <img src={image.img} alt="Description" /></a>
           </div>

@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from '../style/book.module.css'; // Assuming you have a separate CSS module file
+import React from "react";
+import styles from "../style/book.module.css"; // Assuming you have a separate CSS module file
 
 const Book = () => {
   const listItems = [
-    "Learn why you're closer to your dreams and goals than you think and why using The Power of One More strategies will help you cross the finish line in whatever race you're running",
+    "Learn why you&#39;re closer to your dreams and goals than you think and why using The Power of One More strategies will help you cross the finish line in whatever race you&#39;re running",
     "Understand the psychology and science of how to use The Power of One More in every part of your life will help you solve problems and achieve levels of success you never thought possible",
-   "Discover time-tested and unique solutions to challenges that will remove the mental roadblocks you've been battling for years."
+   "Discover time-tested and unique solutions to challenges that will remove the mental roadblocks you&#39;ve been battling for years."
   ];
 
   return (
@@ -19,7 +19,7 @@ const Book = () => {
         In The Power of One More, renowned keynote speaker and performance expert Ed Mylett draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
         </p>
         <h2 className={styles.subHeading}>
-        In This Book, You'll:
+        In This Book, You&#39;ll:
         </h2>
         <ul className={styles.list}>
           {listItems.map((item, index) => (
@@ -49,7 +49,7 @@ const Book = () => {
         In The Power of One More, renowned keynote speaker and performance expert Ed Mylett draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
         </p>
         <h2 className={styles.subHeading}>
-        In This Book, You'll:
+        In This Book, You&#39;ll:
         </h2>
         <ul className={styles.list}>
           {listItems.map((item, index) => (
