@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link href="/Hire">Hire Ed to Speak</Link>
             <Link href="/podcast">Podcast</Link>
             <Link href="/tv-show">TV Show</Link>
-            <Link href="/services">Books</Link>
+            <Link href="/book">Books</Link>
             <Link href="/services">Shop</Link>
             <Link href="/services">Contact</Link>
           </div>

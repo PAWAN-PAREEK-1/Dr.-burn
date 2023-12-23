@@ -1,0 +1,99 @@
+.mainHero{
+    height: 100vh !important;
+    background: #001838 url(https://ed-mylett-web.s3.us-west-1.amazonaws.com/zAQVRoam-.png) !important;
+}
+.hero{
+    background-image: url(https://www.edmylett.com/img/heroImage/books.png) !important;
+    background-size: 30% auto !important;
+}
+/* Book.module.css */
+
+.mainDiv {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+  }
+  .mainDiv2{
+    padding:0 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+
+  .leftDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #001838;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+
+  }
+
+  .paragraph {
+    color: #001838;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    line-height: 1.7rem;
+    margin-block: 2rem;
+  }
+
+  .subHeading {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;/* 30% less than heading */
+    /* Add any other styles for the subheading */
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .list li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .rightDiv {
+    width: 50%;
+  }
+
+  .image {
+    width: 75%;
+    height: auto;
+  }
+
+  .buttonRow {
+    display: flex;
+    gap: 10px;
+  }
+
+  .button {
+    padding: 15px 45px;
+    color: #fff;
+    background: #c19752;
+    border: 2px solid #c19752;
+    cursor: pointer;
+    font-size: 17.5px;
+    width: 50%;
+    transition: background-color 0.3s, border 0.3s;
+  }
+
+  .button:hover {
+    background-color: #001838;
+    border: 2px solid #fff;
+  }
