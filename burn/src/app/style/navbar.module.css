@@ -4,6 +4,7 @@
   max-width: 1590px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .navbar {
@@ -15,6 +16,8 @@
   background-color: transparent; /* Replace with your desired background color */
   color: #fff; /* Replace with your desired text color */
   transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 9999999;
 }
 
 /* .navbar.scrolled {
@@ -58,6 +61,6 @@
   position: fixed;
   width: 95%;
   top: 0;
-  z-index: 1000;
+  z-index: 999999;
   max-width: 1490px;
 }
