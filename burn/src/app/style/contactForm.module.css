@@ -70,4 +70,19 @@
     border: 2px solid #fff;
 }
 
+.Cpage{
+  background: none;
+  padding-inline: 50px;
+  margin-top: 9rem;
+}
+.inputHide{
+  display: none;
+}
+.inputs{
+  margin-bottom: 1.5rem !important;
+}
+.hide{
+  display: none;
+}
+
 
