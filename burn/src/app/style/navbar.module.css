@@ -64,3 +64,6 @@
   z-index: 999999;
   max-width: 1490px;
 }
+.active{
+    color: white;
+}

@@ -1,7 +1,9 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import styles from '../style/navbar.module.css';
+import "../globals.css"
 
 
 const Navbar = () => {
@@ -19,6 +21,12 @@ const Navbar = () => {
     };
   }, []);
 
+
+
+
+
+  const pathname = usePathname()
+
   return (
     <div>
       <div className={`navbar-header ${scrolled ? styles.scrolled : ''}`}>
@@ -29,14 +37,14 @@ const Navbar = () => {
             </Link>
           </div>
           <div className={styles.links}>
-            <Link href="/">Home</Link>
-            <Link href="/about">AboutEd</Link>
-            <Link href="/Hire">Hire Ed to Speak</Link>
-            <Link href="/podcast">Podcast</Link>
-            <Link href="/tv-show">TV Show</Link>
-            <Link href="/book">Books</Link>
-            <Link href="/shop">Shop</Link>
-            <Link href="/contact">Contact</Link>
+            <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">Home</Link>
+            <Link  className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about">AboutEd</Link>
+            <Link  className={`link ${pathname === '/Hire' ? 'active' : ''}`} href="/Hire">Hire Ed to Speak</Link>
+            <Link  className={`link ${pathname === '/podcast' ? 'active' : ''}`} href="/podcast">Podcast</Link>
+            <Link  className={`link ${pathname === '/tv-show' ? 'active' : ''}`} href="/tv-show">TV Show</Link>
+            <Link  className={`link ${pathname === '/book' ? 'active' : ''}`} href="/book">Books</Link>
+            <Link  className={`link ${pathname === '/shop' ? 'active' : ''}`} href="/shop">Shop</Link>
+            <Link  className={`link ${pathname === '/contact' ? 'active' : ''}`} href="/contact">Contact</Link>
           </div>
         </nav>
       </div>
