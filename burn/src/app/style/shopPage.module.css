@@ -1,0 +1,65 @@
+.hero{
+    background: none !important;
+    min-height: 100vh ;
+
+}
+.tvShow::before{
+  position: initial !important;
+
+}
+.mainHero{
+
+    position: relative;
+    padding-inline: 0px !important;
+}
+.left{
+    background: url(	https://www.edmylett.com/_next/static/media/base_l.2bd85206.png) no-repeat center   !important;
+    background-size: cover !important;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.left img,.right img{
+    width: 60%;
+
+    position: absolute;
+    bottom: 0;
+}
+.left::after  ,.right::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(179.1deg,rgba(0,24,56,0) .78%,#001838 135.27%);
+}
+
+.right{
+    flex: 1;
+    background: url(https://www.edmylett.com/_next/static/media/base_r.ef95f070.png) no-repeat center   !important;
+    background-size: cover !important;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+.left button, .right button {
+    position: absolute;
+    bottom: 3rem;
+    background: white;
+    padding: 20px 50px;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: .01rem;
+    color: #1d1d1d;
+}
+.left button:hover,.right button:hover{
+    background-color: #001838;
+    color: white;
+}
