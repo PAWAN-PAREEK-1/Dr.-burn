@@ -34,7 +34,7 @@ const page = () => {
 
             <div className={styles.contact}>
                 <div className={styles.left}>
-                        <img src="https://www.edmylett.com/img/contact/ed.png" alt="" />
+                        <img src="/images/contactus2.png" alt="" />
                 </div>
                 <div className={styles.left}>
                         <ContactForm isContactPage={true} />

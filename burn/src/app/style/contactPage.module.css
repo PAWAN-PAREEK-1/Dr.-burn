@@ -4,7 +4,7 @@
     position: relative;
 }
 .hero{
-    background: url(https://www.edmylett.com/img/heroImage/contact.png ) no-repeat center bottom;
+    background: url(../../../public/images/contactus1.png ) no-repeat center bottom;
     background-size: 58% auto;
 
 
@@ -12,7 +12,7 @@
 }
 .hero::before{
     content: "";
-    background: linear-gradient(179.1deg,rgba(0,24,56,0) .78%,#001838 87.76%);
+    /* background: linear-gradient(179.1deg,rgba(0,24,56,0) .78%,#001838 87.76%); */
     opacity: .9;
     position: absolute;
     bottom: 0;
@@ -69,11 +69,17 @@ margin-inline: 9rem;
     align-items: center;
     justify-content: center;
     max-width: 1390px;
-   
+
 }
 .left ,.right{
     flex: 1;
 }
 .left{
+    display: flex;
+    justify-content: center;
     background: url(https://www.edmylett.com/_next/static/media/background.f46fb087.png) center ;
+}
+.left img{
+    padding-top: 6rem;
+
 }
