@@ -12,6 +12,7 @@
   font-weight: 600;
   letter-spacing: .03em;
   text-align: center;
+  /* margin-bottom: 3rem; */
 
 }
 .ed{
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 3rem;
 }
 .edBox{
     flex: 1;

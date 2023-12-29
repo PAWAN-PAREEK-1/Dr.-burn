@@ -24,7 +24,7 @@
     width: 1100rem;
     max-width: 100%;
     width:64%;
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
 }
 .brand{
     display: flex;
