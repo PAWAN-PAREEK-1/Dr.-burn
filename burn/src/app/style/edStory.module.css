@@ -1,8 +1,13 @@
+
+.containerMain{
+ background: white;
+}
 .main{
     padding-inline: 50px;
     padding-block: 80px;
-    background: white;
-    width: 93%;
+
+    max-width: 1269px;
+    margin: auto;
 }
 .main h1{
     text-transform: uppercase;

@@ -1,5 +1,5 @@
 .heroMain img{
-    max-width: 35%  !important;
+    width: 650px;
     position: relative;
 
 
@@ -7,6 +7,8 @@
 .heroMain{
 
     word-wrap: break-word;
+    max-width: 1269px;
+    margin: auto;
 }
 .heroText{
     font-size: 49px;
@@ -22,13 +24,14 @@
     text-align: center;
     position: absolute;
     text-transform:capitalize;
-    bottom: 10rem;
+    bottom: 12rem;
 }
 .images{
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 .aboutHero{
     width: 80%;

@@ -52,6 +52,8 @@ const data = [
 
 const EdStory = () => {
   return (
+    <>
+    <div className={styles.containerMain}>
     <div className={styles.main}>
       <h1>ed&#39;s zero to hero story</h1>
 
@@ -78,6 +80,8 @@ const EdStory = () => {
         )
       )}
     </div>
+    </div>
+    </>
   );
 };
 
