@@ -31,6 +31,7 @@ const Navbar = () => {
     <div>
       <div className={`navbar-header ${scrolled ? styles.scrolled : ''}`}>
         <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
+          <div className={scrolled ? styles.scrollDiv:styles.navbar}>
           <div className={styles.logo}>
             <Link href="/">
               <img src="/images/logo.png" alt="" />
@@ -45,6 +46,7 @@ const Navbar = () => {
             <Link  className={`link ${pathname === '/book' ? 'active' : ''}`} href="/book">Books</Link>
             <Link  className={`link ${pathname === '/shop' ? 'active' : ''}`} href="/shop">Shop</Link>
             <Link  className={`link ${pathname === '/contact' ? 'active' : ''}`} href="/contact">Contact</Link>
+          </div>
           </div>
         </nav>
       </div>
