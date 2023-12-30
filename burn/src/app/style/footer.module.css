@@ -14,9 +14,9 @@
 
 }
 
-.footerSec{
+/* .footerSec{
     max-width: 1263px;
-}
+} */
 
 .footerMain::before {
     content: "";
@@ -130,4 +130,13 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+.containerMain{
+    display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1269px;
+  margin: auto;
+  gap: 30px;
+
 }

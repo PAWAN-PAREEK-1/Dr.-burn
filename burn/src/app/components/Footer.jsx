@@ -7,6 +7,7 @@ const Footer = () => {
     <>
       <div className={styles.footerSec}>
         <div className={styles.footerMain}>
+          <div className={styles.containerMain}>
           <div className={`${styles.footer} ${styles.footer1} `}>
             <h2>ABOUT ED MYLETT</h2>
             <p>
@@ -66,6 +67,7 @@ const Footer = () => {
               </div>
             </Link>
           </div>
+        </div>
         </div>
       </div>
     </>

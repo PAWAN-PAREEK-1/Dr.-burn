@@ -5,7 +5,7 @@
     justify-content: space-between;
     background: linear-gradient(90deg,#001838,#06254f);
     overflow: hidden;
-    max-width: 1490px;
+    max-width: 100%;
     position: relative;
 
 }
@@ -44,6 +44,7 @@
     font-size: 17.6px;
     font-weight: 500;
     cursor: pointer;
+    margin-bottom: 7rem;
     color: #c19752;
 }
 .Ed button:hover{
@@ -62,5 +63,13 @@
 .Social img{
     width: 91px;
 
+
+}
+.aboutMain{
+    max-width: 1263px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }

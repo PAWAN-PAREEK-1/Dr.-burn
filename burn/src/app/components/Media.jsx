@@ -4,6 +4,7 @@ const Media = () => {
   return (
     <>
       <div className={styles.container}>
+        <div className={styles.containerMain}>
         <h1 className="colorPrimary">Media Appearances</h1>
         <p>
           Ed Mylett is a popular motivational speaker, business leader and TV
@@ -56,6 +57,7 @@ const Media = () => {
               allowfullscreen
             ></iframe>
           </div>
+        </div>
         </div>
       </div>
     </>

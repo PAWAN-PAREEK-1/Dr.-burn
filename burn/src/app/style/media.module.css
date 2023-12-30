@@ -38,3 +38,7 @@
     height: 100%;
     width: 100%;
 }
+.containerMain{
+    max-width: 1269px;
+    margin: auto;
+}

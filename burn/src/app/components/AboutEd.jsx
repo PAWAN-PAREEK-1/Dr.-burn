@@ -4,6 +4,7 @@ import styles2 from "../style/aboutPage.module.css";
 const AboutEd = ({ isWhiteBG, isHeadingColor}) => {
   return (
     <div className={`${styles.about} ${isWhiteBG && styles2.aboutBg}`}>
+      <div className={styles.aboutMain}>
       <div className={styles.Ed}>
         <h1 className={`colorPrimary ${isHeadingColor ? styles2.aboutHead : ''}`} >{isWhiteBG ? 'Who Is Ed Mylett': 'Who Is Ed Mylett '}</h1>
         <p className={isWhiteBG ? styles2.aboutHead :""}>
@@ -36,8 +37,10 @@ const AboutEd = ({ isWhiteBG, isHeadingColor}) => {
           <img src={isWhiteBG ? "/images/Money2.svg" :"/images/Money.svg"} alt="" />
         </div>
       </div>
+
       <div className={styles.Edimg}>
         <img src="/images/about.png" alt="" />
+      </div>
       </div>
     </div>
   );
