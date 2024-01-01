@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="header" id="header">
         <div className="cout">
-          JOIN THE WORLD&apos;S BIGGEST MOVEMENT AND MAXOUT YOUR LIFE!
+         Join the world&apos;s biggest movement for living a limit free life
           <button className="header btn">
           JOIN NOW
         </button>

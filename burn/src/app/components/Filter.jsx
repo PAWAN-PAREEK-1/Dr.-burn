@@ -24,7 +24,7 @@ const buttons = [
 
 const podcast = [
   {
-    img: "	https://ed-mylett-web.s3.us-west-1.amazonaws.com/frZKOokwW.PNG",
+    img: "	/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",
@@ -32,7 +32,7 @@ const podcast = [
     typeof: "spotLegend",
   },
   {
-    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    img: "		/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",
@@ -40,7 +40,7 @@ const podcast = [
     typeof: "health",
   },
   {
-    img: "	https://ed-mylett-web.s3.us-west-1.amazonaws.com/frZKOokwW.PNG",
+    img: "	/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",
@@ -48,7 +48,7 @@ const podcast = [
     typeof: "spotLegend",
   },
   {
-    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    img: "		/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",
@@ -56,7 +56,7 @@ const podcast = [
     typeof: "health",
   },
   {
-    img: "	https://ed-mylett-web.s3.us-west-1.amazonaws.com/frZKOokwW.PNG",
+    img: "	/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",
@@ -64,7 +64,7 @@ const podcast = [
     typeof: "spotLegend",
   },
   {
-    img: "		https://ed-mylett-web.s3.us-west-1.amazonaws.com/BSqPKC6p-.jpg",
+    img: "		/images/podcast1.png",
     epNO: "270",
     date: "27/12/2015",
     author: "ed my ",

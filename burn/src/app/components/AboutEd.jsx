@@ -8,23 +8,10 @@ const AboutEd = ({ isWhiteBG, isHeadingColor}) => {
       <div className={styles.Ed}>
         <h1 className={`colorPrimary ${isHeadingColor ? styles2.aboutHead : ''}`} >{isWhiteBG ? 'Who Is Edward Burns': 'Who Is Edward Burns '}</h1>
         <p className={isWhiteBG ? styles2.aboutHead :""}>
-          Edward Burns is a global speaker, coach, entrepreneur, 2x bestselling
-          author, tv host, top ranked podcast host, and is considered one the
-          most inspiring speakers of our time.
-          <br />
-          <br /> Ed has been sought after, and privately mentored many of the
-          top professional athletes, entertainers, business executives, and
-          politicians in the world. He is considered the “success and
-          fulfillment whisperer” for elite achievers in helping them to perform
-          at #MAXOUT levels of their lives. <br />
-          <br /> He was ranked one of the country&apos;s top 50 wealthiest under
-          the age of 50, and has been recognized by multiple publications as the
-          “Fastest-growing business personality in the history of social media,”
-          and has decided to share the strategies and techniques used for elite
-          performers publicly with the world. <br />
-          <br /> He is well known for combining spirituality, faith, the inner
-          workings of the mind, and tactical thoughts and actions to help people
-          produce real changes in their lives.
+        After an honorable career as a Marine, I found my calling in the world of entrepreneurship. My journey has been one of resilience and triumph, marked by overcoming personal struggles, serving two tours in Iraq, and facing homelessness after military retirement. From battling adversity with only $34.41 to my name, I rose to build a successful cleaning service company, Valor Janitorial.<br/> <br/>
+My work ethic and perseverance propelled this business to unprecedented heights, eventually leading to its acquisition by a private equity firm. In doing so, I became the first multi-millionaire in my family. But my journey didn't stop there. Driven by a passion for excellence and a desire to uplift others, I pursued a Ph.D. in Business Administration and Management from Harvard, setting the stage for my current role as a financial services professional and national advanced market specialist.<br/><br/>
+At Valor Financial Group, I am dedicated to helping individuals, business owners, and financial entrepreneurs shape a brighter future and cultivate robust portfolios. My commitment extends beyond transactions; I aim to empower consumers with greater financial literacy, ensuring they have the resources to protect their families and build a secure future.<br/><br/>
+Connecting business owners with the right financial and insurance products is not just a job; it's a mission to enhance their coverage and add value to employee benefits packages. Additionally, I guide financial services entrepreneurs in building thriving businesses, offering access to industry-leading investment and insurance products
         </p>
 
         <button className={isWhiteBG ? styles2.btn : ""}>Discover Ed&apos;s Personal Story</button>

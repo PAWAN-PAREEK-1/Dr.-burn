@@ -3,7 +3,8 @@
     background: #001838 url(https://ed-mylett-web.s3.us-west-1.amazonaws.com/zAQVRoam-.png) !important;
 }
 .hero{
-  background: url(https://www.edmylett.com/img/heroImage/books.png) no-repeat center top !important;
+  background: url(../../../public/images/book.png) no-repeat center top !important;
+  background-size: 30% !important;
 }
 /* Book.module.css */
 

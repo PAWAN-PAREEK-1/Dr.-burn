@@ -51,7 +51,7 @@ const page = () => {
 
         </div>
         <div className={styles2.hireRight}>
-                <img src="/images/hire.png" alt="" />
+                <img src="/images/Speaker.png" alt="" />
         </div>
 
         </div>
