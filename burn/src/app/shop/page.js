@@ -18,7 +18,7 @@ const page = () => {
               <div className={`${styles.mainHero} ${styles2.mainHero}`}>
                 <div className={styles2.left}>
                   <img
-                    src="https://www.edmylett.com/img/shop/ed_l.png"
+                    src="/images/shopleft.png"
                     alt=""
                   />
 
@@ -26,7 +26,7 @@ const page = () => {
                 </div>
                 <div className={styles2.right}>
                   <img
-                    src="https://www.edmylett.com/img/shop/ed_r.png"
+                    src="/images/shopright.png"
                     alt=""
                   />
                   <button>THE POWER OF ONE MORE COLLECTION</button>

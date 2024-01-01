@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 
 body{
     overflow-x: hidden;
@@ -12,11 +14,17 @@ body{
 /* .jh{
     min-height: 3000px;
 } */
-h1,h2,h3,h4,h5,h6,p{
+
+h1, h2 ,  h3, h4,span{
+    font-family: 'Bebas Neue', sans-serif !important;/* Bebas Neue font for h1 and h2 */
     margin: 0;
+  }
 
-}
-
+ h5, h6, p,a {
+    font-family: 'Open Sans', sans-serif !important;
+    /* Use Open Sans for h3, h4, h5, h6, and paragraphs */
+    margin: 0;
+  }
 .colorPrimary {
     color: #c19752!important;
 }

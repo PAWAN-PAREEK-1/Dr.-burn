@@ -1,8 +1,9 @@
-import { Bebas_Neue } from 'next/font/google'
+import { Bebas_Neue , Open_Sans} from 'next/font/google'
 import './globals.css'
 
 const bebas_neue = Bebas_Neue({ subsets: ['latin'] ,
-weight:'400'})
+weight:'400', variable:'--font-bebas'})
+const open_sans = Open_Sans({ subsets: ['latin'], variable:'--font-open'})
 
 export const metadata = {
   title: 'Ed Burn',
@@ -13,8 +14,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head></head>
-      <body className={bebas_neue.className}>{children}</body>
+
+      <body  >{children}</body>
     </html>
   )
 }
