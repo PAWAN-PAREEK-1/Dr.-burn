@@ -16,8 +16,9 @@
     color: white;
     text-transform: uppercase;
     position: absolute;
-    padding-inline: 58px;
+    /* padding-inline: 58px; */
     /* width: 100%; */
+    margin-top: 23rem;
 }
 .heroSmallText{
     color: white;
@@ -58,7 +59,7 @@
 }
 .aboutBg{
     background: transparent !important;
-    margin-top: 7rem;
+    margin-top: 0rem;
 }
 .aboutHead{
     color: #001838 !important;

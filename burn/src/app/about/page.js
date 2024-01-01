@@ -29,7 +29,7 @@ const About = () => {
             <img src="/images/aboutUs.png" alt="" />
 
             <h1 className={styles2.heroText}> <span className="colorPrimary">Edward Burns</span> is a global keynote speaker, <span className="colorPrimary"> 2x bestselling author</span>, the host of the critically acclaimed and top rated podcast, <span className="colorPrimary">“The Edward Burns Show.”</span></h1>
-            <h3 className={styles2.heroSmallText}>Ed has a passion for mentoring and coaching others on what it takes to become a <span className="colorPrimary">champion</span>!</h3>
+            {/* <h3 className={styles2.heroSmallText}>Ed has a passion for mentoring and coaching others on what it takes to become a <span className="colorPrimary">champion</span>!</h3> */}
 
 
           </div>

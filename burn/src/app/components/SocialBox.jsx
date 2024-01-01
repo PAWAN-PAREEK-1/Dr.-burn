@@ -13,7 +13,7 @@ const SocialBox = () => {
     <div className={styles.growMain}>
       <div className={styles.grow}>
              <div className={styles.growHead}>
-             <h1>JOIN THE GROWING <span>MAXOUT</span>  COMMUNITY</h1>
+             <h1>JOIN THE GROWING <span>NO LIMIT</span>  COMMUNITY</h1>
 
              </div>
 
