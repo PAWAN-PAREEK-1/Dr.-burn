@@ -1,9 +1,9 @@
 
 .mainBody{
 
-    max-width: 80%;
-    overflow: hidden;
-    margin: auto;
+    max-width: 1269px;
+  overflow: hidden;
+  margin: auto;
 
 }
 
@@ -16,6 +16,8 @@
     max-width: 80%;
     z-index: 2;
     bottom: -5rem;
+    max-width: 1269px;
+    margin: auto;
 
 
 }

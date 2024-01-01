@@ -11,7 +11,7 @@ const ContactForm = ( {isContactPage}) => {
           <div className={`${styles.contactForm} `}>
 
             <h2 className={isContactPage && styles.hide}>Hire Me to Speak</h2>
-            <h2 className={!isContactPage && styles.hide}>Connect with ed mylett</h2>
+            <h2 className={!isContactPage && styles.hide}>Connect with Edward Burns</h2>
 
             <form action="">
               <input type="text" placeholder="Your Name" className={isContactPage && styles.inputs}/>

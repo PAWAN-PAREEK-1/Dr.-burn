@@ -22,7 +22,7 @@ const Follow = () => {
   return (
     <div className={styles.main}>
       <div className={styles.centerContent}>
-        <h1>follow ed mylett change on instagram</h1>
+        <h1>follow Edward Burns change on instagram</h1>
         <h2 className="colorPrimary">@EDMYLETTCHANGE</h2>
       </div>
       <div className={styles.flexContainer}>

@@ -24,7 +24,7 @@ const page = () => {
             <div className={`${styles.heroMain} ${styles2.heroMain}`}>
               <h1>
                 For over 3 decades,{" "}
-                <span className="colorPrimary">Ed Mylett</span> has been{" "}
+                <span className="colorPrimary">Edward Burns</span> has been{" "}
                 <span className="colorPrimary">inspiring</span> and{" "}
                 <span className="colorPrimary">empowering </span>audiences
                 across the globe.
@@ -37,7 +37,7 @@ const page = () => {
         <div className={styles2.hireLeft}>
             <p>Ed has repeatedly been ranked #1 on the list of the world&#39;s greatest speakers. A born storyteller, Ed weaves together personal anecdotes and universal truths to deliver a message that is both relatable and transformative. Whether he&#39;s sharing his own journey from humble beginnings to becoming a top-earning entrepreneur or teaching others how to unleash their full potential, Ed always leaves his audiences inspired and ready to take action.</p>
             <br/>
-            <p>If you&#39;re looking for a speaker who can deliver an unforgettable experience and truly create change, contact Ed Mylett today.</p>
+            <p>If you&#39;re looking for a speaker who can deliver an unforgettable experience and truly create change, contact Edward Burns today.</p>
 
             <div className={styles2.socialImage}>
 

@@ -6,9 +6,9 @@ const AboutEd = ({ isWhiteBG, isHeadingColor}) => {
     <div className={`${styles.about} ${isWhiteBG && styles2.aboutBg}`}>
       <div className={styles.aboutMain}>
       <div className={styles.Ed}>
-        <h1 className={`colorPrimary ${isHeadingColor ? styles2.aboutHead : ''}`} >{isWhiteBG ? 'Who Is Ed Mylett': 'Who Is Ed Mylett '}</h1>
+        <h1 className={`colorPrimary ${isHeadingColor ? styles2.aboutHead : ''}`} >{isWhiteBG ? 'Who Is Edward Burns': 'Who Is Edward Burns '}</h1>
         <p className={isWhiteBG ? styles2.aboutHead :""}>
-          Ed Mylett is a global speaker, coach, entrepreneur, 2x bestselling
+          Edward Burns is a global speaker, coach, entrepreneur, 2x bestselling
           author, tv host, top ranked podcast host, and is considered one the
           most inspiring speakers of our time.
           <br />

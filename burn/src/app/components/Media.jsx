@@ -7,7 +7,7 @@ const Media = () => {
         <div className={styles.containerMain}>
         <h1 className="colorPrimary">Media Appearances</h1>
         <p>
-          Ed Mylett is a popular motivational speaker, business leader and TV
+          Edward Burns is a popular motivational speaker, business leader and TV
           personality who has made numerous appearances in various forms of
           media. He has been a guest multiple times on national broadcasts like
           Good Morning America, Access Hollywood, Sherri Shepherd and Good

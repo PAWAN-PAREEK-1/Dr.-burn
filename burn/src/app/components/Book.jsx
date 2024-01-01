@@ -16,7 +16,7 @@ const Book = () => {
         the power of one more
         </h1>
         <p className={styles.paragraph}>
-        In The Power of One More, renowned keynote speaker and performance expert Ed Mylett draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
+        In The Power of One More, renowned keynote speaker and performance expert Edward Burns draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
         </p>
         <h2 className={styles.subHeading}>
         In This Book, You&#39;ll:
@@ -46,7 +46,7 @@ const Book = () => {
         the power of one more
         </h1>
         <p className={styles.paragraph}>
-        In The Power of One More, renowned keynote speaker and performance expert Ed Mylett draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
+        In The Power of One More, renowned keynote speaker and performance expert Edward Burns draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business executives to reveal powerful strategies to help you live an extraordinary “one more” life.
         </p>
         <h2 className={styles.subHeading}>
         In This Book, You&#39;ll:

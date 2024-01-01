@@ -10,7 +10,7 @@ const page = () => {
       <div className={styles.main}>
         <div className={styles.container}>
           <div
-            className={`${styles.hero} ${styles2.hero}`}
+            className={`${styles2.hero} ${styles2.hero}`}
 
           >
             <Navigation />

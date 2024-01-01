@@ -6,7 +6,7 @@ const Books = () => {
     <>
       <div className={styles.container}>
         <h1>Best selling books</h1>
-        <h3 className="colorPrimary">WRITTEN BY ED MYLETT</h3>
+        <h3 className="colorPrimary">WRITTEN BY Edward Burns</h3>
 
         <div className={styles.books}>
           <div className={styles.Sbooks}>
@@ -16,7 +16,7 @@ const Books = () => {
               <h1>The power of one more</h1>
               <p>
                 In The Power of One More, renowned keynote speaker and
-                performance expert Ed Mylett draws on 30 years of experience as
+                performance expert Edward Burns draws on 30 years of experience as
                 an entrepreneur and coach to top athletes, entertainers, and
                 business executives to reveal powerful strategies to help you
                 live an extraordinary “one more” life.
@@ -32,7 +32,7 @@ const Books = () => {
               <h1>The power of one more</h1>
               <p>
                 In The Power of One More, renowned keynote speaker and
-                performance expert Ed Mylett draws on 30 years of experience as
+                performance expert Edward Burns draws on 30 years of experience as
                 an entrepreneur and coach to top athletes, entertainers, and
                 business executives to reveal powerful strategies to help you
                 live an extraordinary “one more” life.

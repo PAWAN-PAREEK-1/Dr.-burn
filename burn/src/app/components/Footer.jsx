@@ -9,9 +9,9 @@ const Footer = () => {
         <div className={styles.footerMain}>
           <div className={styles.containerMain}>
           <div className={`${styles.footer} ${styles.footer1} `}>
-            <h2>ABOUT ED MYLETT</h2>
+            <h2>ABOUT Edward Burns</h2>
             <p>
-              Ed Mylett is one of the top business leaders and peak performance
+              Edward Burns is one of the top business leaders and peak performance
               experts in the world today. Ed has a passion for mentoring and
               coaching others on what it takes to become a champion!
             </p>
@@ -47,9 +47,9 @@ const Footer = () => {
             </form>
           </div>
           <div className={`${styles.footer} ${styles.footer3} `}>
-            <h2>ABOUT ED MYLETT</h2>
+            <h2>ABOUT Edward Burns</h2>
             <p>
-              Ed Mylett is one of the top business leaders and peak performance
+              Edward Burns is one of the top business leaders and peak performance
               experts in the world today. Ed has a passion for mentoring and
               coaching others on what it takes to become a champion!
             </p>

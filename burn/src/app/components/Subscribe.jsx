@@ -46,7 +46,7 @@ const Subscribe = () => {
                         <div className={styles.epBox}>
                             <h1>Latest episode</h1>
                             <h4>Ep.271</h4>
-                            <h3 className='colorPrimary'>Ed Mylett</h3>
+                            <h3 className='colorPrimary'>Edward Burns</h3>
                             <h2>12 Steps To Become A Master Listener</h2>
                             <div className={styles.boxButton}>
                                 <button><img src="https://www.edmylett.com/icons/latestSubscribe/listen.svg" alt="" />Listen</button>

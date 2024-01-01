@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link  className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about">AboutEd</Link>
             <Link  className={`link ${pathname === '/Hire' ? 'active' : ''}`} href="/Hire">Hire Ed to Speak</Link>
             <Link  className={`link ${pathname === '/podcast' ? 'active' : ''}`} href="/podcast">Podcast</Link>
-            <Link  className={`link ${pathname === '/tv-show' ? 'active' : ''}`} href="/tv-show">TV Show</Link>
+            {/* <Link  className={`link ${pathname === '/tv-show' ? 'active' : ''}`} href="/tv-show">TV Show</Link> */}
             <Link  className={`link ${pathname === '/book' ? 'active' : ''}`} href="/book">Books</Link>
             <Link  className={`link ${pathname === '/shop' ? 'active' : ''}`} href="/shop">Shop</Link>
             <Link  className={`link ${pathname === '/contact' ? 'active' : ''}`} href="/contact">Contact</Link>

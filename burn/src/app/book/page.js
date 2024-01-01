@@ -20,7 +20,7 @@ const page = () => {
             <Navigation />
             <div className={`${styles5.heroMain} ${styles4.heroMain} ${styles3.heroMain} ${styles.heroMain}`}>
               <h1>
-              Ed Mylett is the <span className="colorPrimary">bestselling author</span>  of <span className="colorPrimary">#MaxOut Your Life</span>   and <span className="colorPrimary"> The Power of One More</span>
+              Edward Burns is the <span className="colorPrimary">bestselling author</span>  of <span className="colorPrimary">#MaxOut Your Life</span>   and <span className="colorPrimary"> The Power of One More</span>
               </h1>
             </div>
           </div>

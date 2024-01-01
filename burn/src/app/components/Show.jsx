@@ -6,9 +6,9 @@ import styles from "../style/show.module.css";
 
 
 const episodes = [
-  {epNo: 267,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
-  {epNo: 268,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
-  {epNo: 269,guestName: 'ED MYLETT', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'}
+  {epNo: 267,guestName: 'Edward Burns', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
+  {epNo: 268,guestName: 'Edward Burns', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'},
+  {epNo: 269,guestName: 'Edward Burns', epTitle: '10 LESSONS I LEARNED FROM MY DOGS'}
 ]
 
 const Show = () => {
@@ -22,7 +22,7 @@ const Show = () => {
             <h4 className="colorPrimary">
               Become the Best Version of You with
             </h4>
-            <h1>The ed mylett show</h1>
+            <h1>The Edward Burns show</h1>
             <h3>
               RANKED <span className="colorPrimary">TOP 5 PODCASTS</span> IN THE
               WORLD

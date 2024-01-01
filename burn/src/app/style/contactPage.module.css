@@ -5,7 +5,7 @@
 }
 .hero{
     background: url(../../../public/images/contactus1.png ) no-repeat center bottom;
-    background-size: 58% auto;
+    /* background-size: 58% auto; */
 
 
 
@@ -44,15 +44,18 @@
     border: 2px solid #c19752;
 }
 .textBox{
-    position: absolute;
-  padding: 35px 24px;
-
-  background: #fff;
-  box-shadow: 0 16rem 30rem -8rem rgba(8,34,69,.2);
+  position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+padding: 35px 24px;
+background: #fff;
+box-shadow: 0 16rem 30rem -8rem rgba(8, 34, 69, .2);
 width: 80%;
-margin-inline: 9rem;
-  z-index: 2;
-  bottom: -3rem;
+z-index: 2;
+max-width: 1269px;
+
+  bottom: -5rem;
 
 }
 .textBox h3{
@@ -68,7 +71,8 @@ margin-inline: 9rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1390px;
+    max-width: 1269px;
+    margin: auto;
 
 }
 .left ,.right{
