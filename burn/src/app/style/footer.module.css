@@ -11,6 +11,7 @@
     justify-content: center;
     max-width: 100%;
     gap: 30px;
+    z-index: -1 ;
 
 }
 
@@ -139,5 +140,6 @@
   max-width: 1269px;
   margin: auto;
   gap: 30px;
+  z-index: 0;
 
 }

@@ -53,14 +53,14 @@ const PodacastBox = ({ isOnTvPage }) => {
               ? onTvData.map((data, index) => (
                   <div className={styles.podcast} key={index}>
                     <img src={data.img} alt="" />
-                    <h3>{data.name}</h3>
+                    <h4>{data.name}</h4>
                     <hr className={data.isBorder ? styles.borderHr : ""} />
                   </div>
                 ))
               : podcastData.map((data, index) => (
                   <div className={styles.podcast} key={index}>
                     <img src={data.img} alt="" />
-                    <h3>{data.name}</h3>
+                    <h4>{data.name}</h4>
                     <hr className={data.isBorder ? styles.borderHr : ""} />
                   </div>
                 ))}

@@ -74,11 +74,13 @@ max-width: 1269px;
     max-width: 1269px;
     margin: auto;
 
+
 }
 .left ,.right{
     flex: 1;
 }
 .left{
+    z-index: -1;
     display: flex;
     justify-content: center;
     background: url(https://www.edmylett.com/_next/static/media/background.f46fb087.png) center ;
