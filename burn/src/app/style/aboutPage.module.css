@@ -19,6 +19,7 @@
     /* padding-inline: 58px; */
     /* width: 100%; */
     margin-top: 23rem;
+    bottom: 3rem;
 }
 .heroSmallText{
     color: white;
@@ -69,5 +70,5 @@
     color: black !important;
 }
 .btn{
-    display: none;
+    display: block;
 }

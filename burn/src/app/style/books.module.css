@@ -31,10 +31,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
 }
 .book{
     flex: 1;
     /* padding-inline: 72px; */
+
 }
 .book img{
     width: 371px;

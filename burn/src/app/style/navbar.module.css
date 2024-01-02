@@ -53,6 +53,7 @@
 .links a {
   margin: 0 10px;
   color: #ffffff80;
+  font-family: 'Nunito Sans', sans-serif !important;
   text-decoration: none;
 }
 

@@ -16,9 +16,13 @@
 .Edimg{
     flex: 1;
     width: 50%;
+    position: relative;
+
 }
 .Edimg img{
-    width: 100%;
+    width: 125%;
+    top: -29rem;
+    position: absolute;
 }
 .Ed h1{
     padding-bottom: 60px;
