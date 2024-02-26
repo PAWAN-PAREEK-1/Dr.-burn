@@ -4,7 +4,6 @@
   max-width: 1263px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .navbar {
@@ -53,7 +52,7 @@
 .links a {
   margin: 0 10px;
   color: #ffffff80;
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
   text-decoration: none;
 }
 
@@ -63,23 +62,107 @@
 .navbar.scrolled {
   background-color: #001838 !important;
   position: fixed;
- min-width: 100%;
+  min-width: 100%;
   top: 0;
   z-index: 999999;
-
 }
-.active{
-    color: white;
+.active {
+  color: white;
 }
 /* .displayNone{
   display: none;
 } */
-.scrollDiv{
+.scrollDiv {
   max-width: 1300px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
 
+
+@media screen and (max-width: 681px) {
+  .navbar-header {
+    max-width: 1263px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar {
+    /* padding-inline: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    background-color: transparent; /* Replace with your desired background color */
+    color: #fff; /* Replace with your desired text color */
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 9999999;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+  }
+  
+  /* .navbar.scrolled {
+    background-color: #000;
+  } */
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .logo {
+    margin-right: auto;
+    width: 53px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    display: none;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    color: #ffffff80;
+    font-family: "Nunito Sans", sans-serif !important;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: white;
+  }
+  .navbar.scrolled {
+    background-color: #001838 !important;
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    z-index: 999999;
+  }
+  .active {
+    color: white;
+  }
+  /* .displayNone{
+    display: none;
+  } */
+  .scrollDiv {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
 }

@@ -34,8 +34,14 @@ export default function Home() {
           <div className={styles.brandMain}>
             <div className={styles.brand}>
               <div className={styles.brandImg}>
-                <img src="https://www.edmylett.com/img/featured/Forbes.svg" alt="" />
-                <img src="https://www.edmylett.com/img/featured/Success.svg" alt="" />
+                <img
+                  src="https://www.edmylett.com/img/featured/Forbes.svg"
+                  alt=""
+                />
+                <img
+                  src="https://www.edmylett.com/img/featured/Success.svg"
+                  alt=""
+                />
                 <img src="/images/Entrepreneur.svg" alt="" />
               </div>
 
@@ -52,12 +58,12 @@ export default function Home() {
         <SocialBox />
       </div>
 
-      <Show/>
+      <Show />
       <AboutEd />
-      <Books/>
-      <Media/>
-      <Work/>
-      <Footer/>
+      <Books />
+      <Media />
+      <Work />
+      <Footer />
 
       {/* <div className={styles.jh}>
 sda
