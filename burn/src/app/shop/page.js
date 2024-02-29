@@ -9,26 +9,17 @@ const page = () => {
     <div>
       <div className={styles.main}>
         <div className={styles.container}>
-          <div
-            className={`${styles2.hero} ${styles2.hero}`}
-
-          >
+          <div className={`${styles2.hero} ${styles2.hero}`}>
             <Navigation />
             <div className={`${styles.tvShow} ${styles2.tvShow} `}>
               <div className={`${styles.mainHero} ${styles2.mainHero}`}>
                 <div className={styles2.left}>
-                  <img
-                    src="/images/shopleft.png"
-                    alt=""
-                  />
+                  <img src="/images/shopleft.png" alt="" />
 
                   <button>THE POWER OF ONE MORE COLLECTION</button>
                 </div>
                 <div className={styles2.right}>
-                  <img
-                    src="/images/shopright.png"
-                    alt=""
-                  />
+                  <img src="/images/shopright.png" alt="" />
                   <button>THE POWER OF ONE MORE COLLECTION</button>
                   <div className={styles.watch}>
                     {/* <button>Watch Now</button> */}
@@ -38,7 +29,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

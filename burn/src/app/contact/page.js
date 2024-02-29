@@ -12,8 +12,8 @@ const page = () => {
   return (
     <div>
       <div className={` ${styles3.mainHero} ${styles.mainHero}`}>
-        <div className={` ${styles3.hero} ${styles.hero}`}>
           <Navigation />
+        <div className={` ${styles3.hero} ${styles.hero}`}>
           <div
             className={`${styles5.heroMain} ${styles4.heroMain} ${styles3.heroMain} ${styles.heroMain}`}
           >
@@ -31,20 +31,16 @@ const page = () => {
         </div>
       </div>
 
+      <div className={styles.contact}>
+        <div className={styles.left}>
+          <img src="/images/contactus2.png" alt="" />
+        </div>
+        <div className={styles.left}>
+          <ContactForm isContactPage={true} />
+        </div>
+      </div>
 
-            <div className={styles.contact}>
-                <div className={styles.left}>
-                        <img src="/images/contactus2.png" alt="" />
-                </div>
-                <div className={styles.left}>
-                        <ContactForm isContactPage={true} />
-                </div>
-
-            </div>
-
-            <Footer/>
-
-
+      <Footer />
     </div>
   );
 };

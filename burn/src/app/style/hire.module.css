@@ -1,80 +1,126 @@
-.mainHero{
-    position: relative;
-    background-color: #001838;
-     height: 700px;
+.mainHero {
+  position: relative;
+  background-color: #001838;
+  height: 700px;
 }
-.hero{
-
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: url(../../../public/images/hirebg.png) no-repeat center top !important;
-background-size: cover; /* or contain, depending on your preference */
-z-index: 1;
-position: relative;
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../../public/images/hirebg.png) no-repeat center top !important;
+  background-size: cover; /* or contain, depending on your preference */
+  z-index: 1;
+  position: relative;
 }
-.heroMain h1{
-    padding-inline: 90px;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    position: absolute;
-    bottom: 9rem;
-    text-transform: uppercase;
-
+.heroMain h1 {
+  padding-inline: 90px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  bottom: 9rem;
+  text-transform: uppercase;
 }
-.hire{
-    padding: 30px 50px 0px 50px;
+.hire {
+  padding: 30px 50px 0px 50px;
 
-    display: flex;
-    align-items:flex-start ;
-    justify-content: center;
-    gap: 30px;
-    max-width: 1269px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1269px;
   margin: auto;
 
-    background:url(https://www.edmylett.com/img/hireEd/ed-bg.png) no-repeat right center;
-
-
+  background: url(https://www.edmylett.com/img/hireEd/ed-bg.png) no-repeat right
+    center;
 }
 .hireLeft {
-    flex: 3;
-    padding-inline: 96px;
-    padding-top: 3.5rem;
-    color: #001838;
+  flex: 3;
+  padding-inline: 96px;
+  padding-top: 3.5rem;
+  color: #001838;
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0.05rem;
   line-height: 1.7rem;
   padding-bottom: 4rem;
 }
-.hireRight{
-    flex: 2;
-    padding-left: 96px;
-    position: relative;
+.hireRight {
+  flex: 2;
+  padding-left: 96px;
+  position: relative;
 }
-.hireRight img{
-    width: 50%;
-    margin-bottom: -4px !important;
-    width: 55%;
+.hireRight img {
+  width: 50%;
+  margin-bottom: -4px !important;
+  width: 55%;
   margin-bottom: -4px !important;
   position: absolute;
   bottom: -31rem;
 }
-.socialImage{
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    gap: 30px;
-    width: 100%;
-    padding-top: 2.3rem;
+.socialImage {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 30px;
+  width: 100%;
+  padding-top: 2.3rem;
 }
-.socialImage img{
-    width: 80px;
+.socialImage img {
+  width: 80px;
 }
-.heroMain{
-    max-width: 1269px;
+.heroMain {
+  max-width: 1269px;
+  margin: auto;
+}
+
+@media screen and (max-width: 681px) {
+  .mainHero {
+    height: 100vh;
+  }
+
+  .heroMain h1 {
+    padding-inline: 15px;
+    font-size: 28px;
+    bottom: 9rem;
+  }
+  .hire {
+    padding: 0;
+    gap: 0;
+    padding-top: 15px;
+    flex-direction: column-reverse;
+  }
+  .hireLeft {
+    flex: 3;
+    padding-inline: 0px;
+    padding-top: 1rem;
+    color: #001838;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-bottom: 2.5rem;
+    width: 90%;
     margin: auto;
+    overflow: hidden;
+  }
+  .hireRight {
+    flex: 2;
+    padding-left: 96px;
+    position: relative;
+  }
+  .hireRight img {
+    width: 60%;
+    margin-bottom: 0x !important;
+    position: static;
+  }
+  .socialImage {
+    gap: 15px;
+    width: 100%;
+    padding-top: 1.5rem;
+  }
+  .socialImage img {
+    width: 50px;
+  }
 }

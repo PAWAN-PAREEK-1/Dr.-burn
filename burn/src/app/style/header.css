@@ -38,11 +38,11 @@
     padding: 0.5rem;
   }
   .cout {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .btn {
-    padding: 15px 15px;
+    padding: 10px 10px;
     white-space: nowrap;
   }
 }

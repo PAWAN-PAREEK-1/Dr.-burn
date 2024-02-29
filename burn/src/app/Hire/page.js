@@ -3,7 +3,7 @@ import styles2 from "../style/hire.module.css";
 import styles from "../style/home.module.css";
 
 import Loading from "../components/Loading";
-import ContactForm from "../components/ContactForm"
+import ContactForm from "../components/ContactForm";
 
 const Navigation = lazy(() => import("../components/Navigation"));
 
@@ -33,33 +33,39 @@ const page = () => {
           </div>
         </div>
         <div className={styles2.hire}>
-
-        <div className={styles2.hireLeft}>
-            <p>Ed has repeatedly been ranked #1 on the list of the world&#39;s greatest speakers. A born storyteller, Ed weaves together personal anecdotes and universal truths to deliver a message that is both relatable and transformative. Whether he&#39;s sharing his own journey from humble beginnings to becoming a top-earning entrepreneur or teaching others how to unleash their full potential, Ed always leaves his audiences inspired and ready to take action.</p>
-            <br/>
-            <p>If you&#39;re looking for a speaker who can deliver an unforgettable experience and truly create change, contact Edward Burns today.</p>
+          <div className={styles2.hireLeft}>
+            <p>
+              Ed has repeatedly been ranked #1 on the list of the world&#39;s
+              greatest speakers. A born storyteller, Ed weaves together personal
+              anecdotes and universal truths to deliver a message that is both
+              relatable and transformative. Whether he&#39;s sharing his own
+              journey from humble beginnings to becoming a top-earning
+              entrepreneur or teaching others how to unleash their full
+              potential, Ed always leaves his audiences inspired and ready to
+              take action.
+            </p>
+            <br />
+            <p>
+              If you&#39;re looking for a speaker who can deliver an
+              unforgettable experience and truly create change, contact Edward
+              Burns today.
+            </p>
 
             <div className={styles2.socialImage}>
-
-            <img src="/images/Forbes3.svg" alt=""  />
-          <img src= "/images/BuzzFeed2.svg" alt="" />
-          <img src= "/images/CNBC2.svg" alt=""  />
-          <img src= "/images/Entrepreneur3.svg" alt=""  />
-          <img src="/images/Money2.svg" alt="" />
-
+              <img src="/images/Forbes3.svg" alt="" />
+              <img src="/images/BuzzFeed2.svg" alt="" />
+              <img src="/images/CNBC2.svg" alt="" />
+              <img src="/images/Entrepreneur3.svg" alt="" />
+              <img src="/images/Money2.svg" alt="" />
             </div>
-
+          </div>
+          <div className={styles2.hireRight}>
+            <img src="/images/Speaker.png" alt="" />
+          </div>
         </div>
-        <div className={styles2.hireRight}>
-                <img src="/images/Speaker.png" alt="" />
-        </div>
-
-        </div>
-        <ContactForm/>
-
+        <ContactForm />
       </div>
-      <Footer/>
-
+      <Footer />
     </Suspense>
   );
 };

@@ -1,91 +1,119 @@
-.mainHero{
-    background: #001830 url(https://ed-mylett-web.s3.us-west-1.amazonaws.com/kD-6hiJQh.png);
-    max-height: 800px;
-    position: relative;
+.mainHero {
+  background: #001830
+    url(https://ed-mylett-web.s3.us-west-1.amazonaws.com/kD-6hiJQh.png);
+  max-height: 800px;
+  position: relative;
 }
-.hero{
-    background: url(../../../public/images/contactus1.png ) no-repeat center bottom;
-    /* background-size: 58% auto; */
-
-
-
+.hero {
+  background: url(../../../public/images/contactus1.png) no-repeat center bottom;
+  /* background-size: 58% auto; */
 }
-.hero::before{
-    content: "";
-    /* background: linear-gradient(179.1deg,rgba(0,24,56,0) .78%,#001838 87.76%); */
-    opacity: .9;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    z-index: -1;
-}
-.heroMain{
-    position: relative;
-}
-.heroMain button{
-
-    position: absolute;
-    bottom: 12rem;
-    background: transparent;
-    padding: 15px 40px;
-    color: #c19752;
-    background-color: transparent;
-    border: 2px solid #c19752;
-    cursor: pointer;
-    font-size: 17px;
-    font-weight: 500;
-
-}
-.heroMain button:hover{
-    color: #fff;
-    background: #c19752;
-    border: 2px solid #c19752;
-}
-.textBox{
+.hero::before {
+  content: "";
+  /* background: linear-gradient(179.1deg,rgba(0,24,56,0) .78%,#001838 87.76%); */
+  opacity: 0.9;
   position: absolute;
-bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-padding: 35px 24px;
-background: #fff;
-box-shadow: 0 16rem 30rem -8rem rgba(8, 34, 69, .2);
-width: 80%;
-z-index: 2;
-max-width: 1269px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+.heroMain {
+  position: relative;
+}
+.heroMain button {
+  position: absolute;
+  bottom: 12rem;
+  background: transparent;
+  padding: 15px 40px;
+  color: #c19752;
+  background-color: transparent;
+  border: 2px solid #c19752;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+.heroMain button:hover {
+  color: #fff;
+  background: #c19752;
+  border: 2px solid #c19752;
+}
+.textBox {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 35px 24px;
+  background: #fff;
+  box-shadow: 0 16rem 30rem -8rem rgba(8, 34, 69, 0.2);
+  width: 80%;
+  z-index: 2;
+  max-width: 1269px;
 
   bottom: -5rem;
-
 }
-.textBox h3{
-    text-align: center;
-    padding-inline: 7rem;
-    color: #546172;
-    font-size: 19px;
-    letter-spacing: 0.03rem;
-    font-weight: 500;
-
+.textBox h3 {
+  text-align: center;
+  padding-inline: 7rem;
+  color: #546172;
+  font-size: 19px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
 }
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1269px;
-    margin: auto;
-
-
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1269px;
+  margin: auto;
 }
-.left ,.right{
-    flex: 1;
+.left,
+.right {
+  flex: 1;
 }
-.left{
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    background: url(https://www.edmylett.com/_next/static/media/background.f46fb087.png) center ;
+.left {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  background: url(https://www.edmylett.com/_next/static/media/background.f46fb087.png)
+    center;
 }
-.left img{
-    padding-top: 6rem;
+.left img {
+  padding-top: 6rem;
+}
 
+@media screen and (max-width: 681px) {
+  .mainHero {
+    max-height: 80vh;
+  }
+  .hero {
+    background-position: 40% top;
+  }
+
+  .heroMain {
+    position: relative;
+  }
+  .heroMain button {
+    padding: 15px 40px;
+    font-size: 15px;
+  }
+
+  .textBox {
+    bottom: -4rem;
+    padding: 25px 5px;
+    width: 90%;
+  }
+  .textBox h3 {
+    padding-inline: 0.5rem;
+    font-size: 16px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .left img {
+    padding-top: 3rem;
+    width: 80%;
+  }
 }

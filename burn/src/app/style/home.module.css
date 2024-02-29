@@ -131,12 +131,13 @@
 
 @media screen and (max-width: 681px) {
   .heroMain {
-    height: 68vh;
+    height: 60vh;
+    overflow-x: hidden;
   }
 
   .heroMain img {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     margin-bottom: 20vh;
   }
 
@@ -146,34 +147,37 @@
   }
   .brandMain {
     position: absolute;
-    bottom: 170px;
-    width: 100%;
+    bottom: 70px;
   }
   .brandImg {
     justify-content: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
 
   .brandImg img,
   .brandName img {
-    width: 100px;
+    width: 60px;
   }
   .brandName {
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 0.5rem;
   }
 
+  .brandName div {
+    font-size: 10px;
+  }
+
   .grow {
     margin-inline: 20px;
-    padding: 20px 20px 15px;
-    bottom: -122px;
+    padding: 20px 15px 15px;
+    bottom: -57px;
   }
   .growSocial {
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 5px;
     justify-content: space-between;
   }
   .growHead {
@@ -183,13 +187,18 @@
     color: #c19752;
   }
   .growHead h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .SocialBox {
     gap: 10px;
-    width: 150px;
-    padding: 10px 10px;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
     margin: auto;
+  }
+
+  .socialName {
+    display: none;
   }
 
   .SocialBox img {

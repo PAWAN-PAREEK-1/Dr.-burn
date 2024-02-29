@@ -65,9 +65,6 @@ export default function Home() {
       <Work />
       <Footer />
 
-      {/* <div className={styles.jh}>
-sda
-      </div> */}
     </Suspense>
   );
 }

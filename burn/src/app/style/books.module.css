@@ -70,3 +70,48 @@
     line-height: 1.4rem;
     margin-bottom: 40px;
 }
+
+
+@media screen and (max-width: 681px) { 
+    .container{
+        padding: 30px 15px;
+        overflow-x: hidden;
+    }
+    .container h1{
+        font-size: 24px;
+    }
+    .container h3{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .books{
+        margin: auto;
+    }
+    .Sbooks{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+  
+    .book img{
+        width: 201px;
+    }
+    .book button{
+        padding-inline: 67px;
+        padding-block: 12px;
+        background: #c19752;
+    }
+
+    .book h1{
+        margin-block: 25px 10px;
+        font-size: 24px;
+    }
+    .book p{
+        font-size: 13px;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+    
+}

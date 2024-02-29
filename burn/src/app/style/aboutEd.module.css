@@ -78,3 +78,73 @@
     justify-content: space-between;
 
 }
+
+
+@media screen and (max-width: 681px) { 
+    .about{
+        padding: 30px 15px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(90deg,#001838,#06254f);
+        overflow: hidden;
+        max-width: 100%;
+        position: relative;
+        z-index: -1;
+    
+    }
+    .Ed{
+        width: 100%;
+        flex: 1;
+    }
+    .Edimg{
+        flex: 1;
+        width: 50%;
+        position: relative;
+    
+    }
+    .Edimg img{
+        width: 100%;
+        position: static;
+    }
+    .Ed h1{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 1.8rem;
+    }
+    .Ed p{
+        color: #fff;
+        font-weight: 200;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: normal;
+    
+    }
+    .Ed button{
+        margin-top: 30px;
+        border: 1.5px solid #c19752;
+        padding: 15px;
+        font-size: 16px;
+        margin-bottom: 6rem;
+    }
+
+    .Social{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-block: 30px;
+        position: absolute;
+        bottom: 0;
+    }
+    .Social img{
+        width: 60px;
+    
+    
+    }
+    .aboutMain{
+        flex-direction: column-reverse;
+    }
+    
+}
