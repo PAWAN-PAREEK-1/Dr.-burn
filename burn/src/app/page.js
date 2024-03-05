@@ -4,6 +4,7 @@ import React, { lazy, Suspense } from "react";
 import styles from "./style/home.module.css";
 
 import Loading from "./components/Loading";
+import WinnerCirlce from "./components/WinnerCircle";
 
 const SocialBox = lazy(() => import("./components/SocialBox"));
 const Show = lazy(() => import("./components/Show"));
@@ -13,7 +14,7 @@ const Media = lazy(() => import("./components/Media"));
 const Work = lazy(() => import("./components/Work"));
 const Footer = lazy(() => import("./components/Footer"));
 
-const Navigation = lazy(() => import("./components/Navigation"));
+import Navigation from "./components/Navigation"
 
 export default function Home() {
   return (
@@ -61,10 +62,10 @@ export default function Home() {
       <Show />
       <AboutEd />
       <Books />
-      <Media />
+      {/* <Media /> */}
+      <WinnerCirlce />
       <Work />
       <Footer />
-
     </Suspense>
   );
 }
