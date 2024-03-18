@@ -13,7 +13,7 @@
 .hero {
   background-image: url(/images/herobg.png);
   position: relative;
-  background-color: #001838;
+  background-color: #000;
 }
 .heroMain img {
   margin: 0 auto;
