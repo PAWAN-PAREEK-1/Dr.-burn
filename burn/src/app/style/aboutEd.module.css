@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(90deg,#001838,#06254f);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/homebio.png);
     overflow: hidden;
     max-width: 100%;
     position: relative;

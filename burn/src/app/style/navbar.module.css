@@ -60,7 +60,7 @@
   color: white;
 }
 .navbar.scrolled {
-  background-color: #001838 !important;
+  background-color: #000 !important;
   position: fixed;
   min-width: 100%;
   top: 0;

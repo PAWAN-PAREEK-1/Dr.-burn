@@ -11,44 +11,45 @@ const AboutEd = ({ isWhiteBG, isHeadingColor }) => {
               isHeadingColor ? styles2.aboutHead : ""
             }`}
           >
-            {isWhiteBG ? "Who Is Edward Burns" : "Who Is Edward Burns "}
+            {isWhiteBG ? "WHO IS MARCO CHAMPION?" : "WHO IS MARCO CHAMPION?"}
           </h1>
           <p className={isWhiteBG ? styles2.aboutHead : ""}>
-            After an honorable career as a Marine, I found my calling in the
-            world of entrepreneurship. My journey has been one of resilience and
-            triumph, marked by overcoming personal struggles, serving two tours
-            in Iraq, and facing homelessness after military retirement. From
-            battling adversity with only $34.41 to my name, I rose to build a
-            successful cleaning service company, Valor Janitorial.
+            Growing up, I fell in love with skateboarding and all the adversity
+            that came with it. At 15 Yrs old I had a near death experience being
+            ran over by a car and told by the doctors I would never walk again.
+            I shattered my pelvis, broke my spine, and damaged nerves. They
+            called it a miracle when my nerves repaired themselves and I learned
+            how to walk and even skate again.
             <br /> <br />
-            My work ethic and perseverance propelled this business to
-            unprecedented heights, eventually leading to its acquisition by a
-            private equity firm. In doing so, I became the first
-            multi-millionaire in my family. But my journey didn&apos;t stop there.
-            Driven by a passion for excellence and a desire to uplift others, I
-            pursued a Ph.D. in Business Administration and Management from
-            Harvard, setting the stage for my current role as a financial
-            services professional and national advanced market specialist.
+            This experience drove me to understand the power of the mind and
+            tools to use to hack our inner programming. The amazing thing is
+            that it’s possible for anyone to rewire their brain to produce
+            massive levels of success. Through over 10,000 hours of meditation
+            Ive came to a major realization that there&apos;s abundance all around
+            us, we just have to get out of our way and tap into correct flow of
+            energy.
             <br />
             <br />
-            At Valor Financial Group, I am dedicated to helping individuals,
-            business owners, and financial entrepreneurs shape a brighter future
-            and cultivate robust portfolios. My commitment extends beyond
-            transactions; I aim to empower consumers with greater financial
-            literacy, ensuring they have the resources to protect their families
-            and build a secure future.
+            My purpose has been to help others experience their best version the
+            way I constantly experience mine. Thats when I embarked on building
+            MOTIV a brand that inspires others to STAY MOTIVATED and find their
+            most powerful reasons. I also scaled a 7 figure social media agency
+            and launched a content creation app.
             <br />
             <br />
-            Connecting business owners with the right financial and insurance
-            products is not just a job; it&apos;s a mission to enhance their coverage
-            and add value to employee benefits packages. Additionally, I guide
-            financial services entrepreneurs in building thriving businesses,
-            offering access to industry-leading investment and insurance
-            products
+            Theres no stopping my commitment to innovation and in the process
+            ive helped and mentored many others to do the same. Discovering the
+            best version of YOU is the ultimate goal. That&apos;s why Ive developed
+            the REPROGRAM course; a character building routine that reprograms
+            your entire life to experience more success in just 77 days.
           </p>
 
+          <br />
+          <br />
+
+          <p>To Your Success, <br /> Marco Champion</p>
           <button className={isWhiteBG ? styles2.btn : ""}>
-            Discover Ed&apos;s Personal Story
+            Discover Full Story
           </button>
 
           <div className={`${styles.Social}`}>

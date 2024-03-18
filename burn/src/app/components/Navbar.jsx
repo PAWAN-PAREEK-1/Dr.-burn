@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className={scrolled ? styles.scrollDiv : styles.navbar}>
             <div className={styles.logo}>
               <Link href="/">
-                <img src="/images/logo.png" alt="" />
+                <img src="/images/logo.svg" alt="" />
               </Link>
             </div>
             <div className={styles.links}>

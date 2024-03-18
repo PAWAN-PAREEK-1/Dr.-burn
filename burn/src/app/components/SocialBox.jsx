@@ -16,11 +16,11 @@ const SocialBox = () => {
   return (
     <div className={styles.growMain}>
       <div className={styles.grow}>
-        <div className={styles.growHead}>
+        {/* <div className={styles.growHead}>
           <h1>
             JOIN THE GROWING <span>NO LIMIT</span> COMMUNITY
           </h1>
-        </div>
+        </div> */}
 
         <div className={styles.growSocial}>
           {socialDetail.map((social, index) => (

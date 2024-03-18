@@ -32,7 +32,7 @@ export default function Home() {
             <img src="/images/HomePage2.png" alt="" />
           </div>
 
-          <div className={styles.brandMain}>
+          {/* <div className={styles.brandMain}>
             <div className={styles.brand}>
               <div className={styles.brandImg}>
                 <img
@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <SocialBox />
       </div>

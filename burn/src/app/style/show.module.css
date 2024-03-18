@@ -91,7 +91,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(0, 62, 129, 0), #003e81);
+  background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000);
 }
 
 .epMainBox img::before {
@@ -116,7 +116,13 @@
   top: 13px;
   color: #fff;
 
-  left: 10rem;
+  /* left: 10rem; */
+  /* te */
+  text-align: center;
+  font-size: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-wrap: nowrap;
 }
 .epMainBoxDetail {
   position: absolute;

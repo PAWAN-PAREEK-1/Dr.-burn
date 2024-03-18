@@ -1,6 +1,5 @@
 .container {
-  background-color: #001838;
-  background-image: url(/images/mediabg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/homebio.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
